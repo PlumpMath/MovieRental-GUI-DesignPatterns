@@ -1,0 +1,8 @@
+C:\Users\kamil\Desktop\MovieRentalDatabase\MovieRentalDatabaseServer\bin\Release\MovieRentalDatabaseServer.exe.config
+C:\Users\kamil\Desktop\MovieRentalDatabase\MovieRentalDatabaseServer\bin\Release\MovieRentalDatabaseServer.exe
+C:\Users\kamil\Desktop\MovieRentalDatabase\MovieRentalDatabaseServer\bin\Release\MovieRentalDatabaseServer.pdb
+C:\Users\kamil\Desktop\MovieRentalDatabase\MovieRentalDatabaseServer\bin\Release\MovieRentalDatabase.dll
+C:\Users\kamil\Desktop\MovieRentalDatabase\MovieRentalDatabaseServer\bin\Release\MovieRentalDatabase.pdb
+C:\Users\kamil\Desktop\MovieRentalDatabase\MovieRentalDatabaseServer\obj\Release\MovieRentalDatabaseServer.csprojResolveAssemblyReference.cache
+C:\Users\kamil\Desktop\MovieRentalDatabase\MovieRentalDatabaseServer\obj\Release\MovieRentalDatabaseServer.exe
+C:\Users\kamil\Desktop\MovieRentalDatabase\MovieRentalDatabaseServer\obj\Release\MovieRentalDatabaseServer.pdb

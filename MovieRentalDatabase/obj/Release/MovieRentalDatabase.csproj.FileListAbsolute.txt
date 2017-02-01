@@ -1,0 +1,4 @@
+C:\Users\kamil\Desktop\MovieRentalDatabase\MovieRentalDatabase\bin\Release\MovieRentalDatabase.dll
+C:\Users\kamil\Desktop\MovieRentalDatabase\MovieRentalDatabase\bin\Release\MovieRentalDatabase.pdb
+C:\Users\kamil\Desktop\MovieRentalDatabase\MovieRentalDatabase\obj\Release\MovieRentalDatabase.dll
+C:\Users\kamil\Desktop\MovieRentalDatabase\MovieRentalDatabase\obj\Release\MovieRentalDatabase.pdb

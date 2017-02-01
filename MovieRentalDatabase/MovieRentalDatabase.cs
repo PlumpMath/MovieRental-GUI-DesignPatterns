@@ -98,7 +98,7 @@ namespace MovieRentalDatabase
                 userList.Add(new User.User(pair.Key, getUserTypeObject(pair.Value)));
             }
         }
-        private User.User getUserObject(string name)
+        public User.User getUserObject(string name)
         {
             return userList.Find(x => x.Name == name);
         }
@@ -118,10 +118,14 @@ namespace MovieRentalDatabase
             foreach (KeyValuePair<string, string> pair in nicknameToMovie)
             {
                 rentalList.Add(new Rental.Rental(getUserObject(pair.Key), getMovieObject(pair.Value)));
+                new PointsCount.CountStrategy(new PointsCount.CountStrategyFactory().get(pair.Key)).executeStrategy(pair.Key);
             }
 
             rentalList.Add(new Rental.Rental(getUserObject("customer1"), getMovieObject("The Ring")));
+            new PointsCount.CountStrategy(new PointsCount.CountStrategyFactory().get("customer1")).executeStrategy("customer1");
+
             rentalList.Add(new Rental.Rental(getUserObject("customer1"), getMovieObject("Arrival")));
+            new PointsCount.CountStrategy(new PointsCount.CountStrategyFactory().get("customer1")).executeStrategy("customer1");
         }
 
         private void initDatabase()
@@ -221,6 +225,7 @@ namespace MovieRentalDatabase
         public void addRental(string userName,string movieTitle)
         {
             rentalList.Add(new Rental.Rental(getUserObject(userName), getMovieObject(movieTitle)));
+            new PointsCount.CountStrategy(new PointsCount.CountStrategyFactory().get(userName)).executeStrategy(userName);
         }
 
         public void addUser(string userName,string userType)
@@ -231,6 +236,11 @@ namespace MovieRentalDatabase
         public void addMovie(string movieTitle, string movieCategory)
         {
             movieList.Add(new Movie.Movie(movieTitle,getCategoryObject(movieCategory)));
+        }
+
+        public int getUserRentalsCount(string userName)
+        {
+            return rentalList.FindAll(x => x.User.Name == userName).Count;
         }
 
 
