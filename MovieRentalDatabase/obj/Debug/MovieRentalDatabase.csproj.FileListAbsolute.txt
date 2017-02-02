@@ -1,5 +1,4 @@
 C:\Users\kamil\Desktop\MovieRentalDatabase\MovieRentalDatabase\bin\Debug\MovieRentalDatabase.dll
 C:\Users\kamil\Desktop\MovieRentalDatabase\MovieRentalDatabase\bin\Debug\MovieRentalDatabase.pdb
-C:\Users\kamil\Desktop\MovieRentalDatabase\MovieRentalDatabase\obj\Debug\MovieRentalDatabase.csprojResolveAssemblyReference.cache
 C:\Users\kamil\Desktop\MovieRentalDatabase\MovieRentalDatabase\obj\Debug\MovieRentalDatabase.dll
 C:\Users\kamil\Desktop\MovieRentalDatabase\MovieRentalDatabase\obj\Debug\MovieRentalDatabase.pdb

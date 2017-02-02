@@ -31,7 +31,6 @@ namespace RentalMovieGUI
             string userType = comboBox1.SelectedItem.ToString();
 
             mrd.addUser(userName, userType);
-
             this.Close();
             sellerMenu.fillTableWithAllRentals(mrd);
             sellerMenu.Show();

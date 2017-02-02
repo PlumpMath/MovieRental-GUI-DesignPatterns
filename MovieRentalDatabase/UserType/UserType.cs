@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace MovieRentalDatabase.UserType
 {
-    class UserType
+    [Serializable()]
+    public class UserType
     {
         string name;
         public UserType(string name)

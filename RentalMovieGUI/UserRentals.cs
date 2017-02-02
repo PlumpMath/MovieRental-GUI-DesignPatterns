@@ -67,5 +67,20 @@ namespace RentalMovieGUI
             userSelection.Show();
 
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            new Printer.PrinterContext(new Printer.PrinterFactory().get("HTML")).executeStrategy(mrd.printUserRentals(name));
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            new Printer.PrinterContext(new Printer.PrinterFactory().get("CSV")).executeStrategy(mrd.printUserRentals(name));
+        }
     }
 }

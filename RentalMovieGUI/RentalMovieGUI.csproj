@@ -72,6 +72,11 @@
     <Compile Include="AllMovies.Designer.cs">
       <DependentUpon>AllMovies.cs</DependentUpon>
     </Compile>
+    <Compile Include="Printer\IPrintable.cs" />
+    <Compile Include="Printer\PrinterContext.cs" />
+    <Compile Include="Printer\PrinterFactory.cs" />
+    <Compile Include="Printer\ToCSV.cs" />
+    <Compile Include="Printer\ToHTML.cs" />
     <Compile Include="SellerMenu.cs">
       <SubType>Form</SubType>
     </Compile>

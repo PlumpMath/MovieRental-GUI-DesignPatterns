@@ -43,11 +43,6 @@
     <Compile Include="MovieCategory\MovieCategory.cs" />
     <Compile Include="MovieRentalDatabase.cs" />
     <Compile Include="Movie\Movie.cs" />
-    <Compile Include="PointsCount\CountStrategy.cs" />
-    <Compile Include="PointsCount\CountStrategyFactory.cs" />
-    <Compile Include="PointsCount\ExtraCount.cs" />
-    <Compile Include="PointsCount\ICountable.cs" />
-    <Compile Include="PointsCount\NormalCount.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rental\Rental.cs" />
     <Compile Include="UserType\UserType.cs" />

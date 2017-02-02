@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MovieRentalDatabase.PointsCount
+namespace RentalMovieGUI.Printer
 {
-    interface ICountable
+    interface IPrintable
     {
-        void count(string userName);
+        void print(List<MovieRentalDatabase.Row> rentals);
     }
 }
