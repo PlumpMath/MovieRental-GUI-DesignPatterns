@@ -17,7 +17,7 @@ namespace MovieRentalDatabase.Rental
         {
             this.user = user;
             this.movie = movie;
-            rentDate = new DateTime();
+            rentDate = DateTime.Now;
             backDate = rentDate.AddDays(7);
         }
 
